@@ -108,11 +108,11 @@ from sklearn.compose import ColumnTransformer
 ## Results
 ##  Model Performance Comparison
 
-| Model               | Train Accuracy | Test Accuracy | Train F1 Score | Test F1 Score | ROC AUC Score | Overfitting |
-| ------------------- | -------------- | ------------- | -------------- | ------------- | ------------- | ----------- |
-| Logistic Regression | 0.9890         | 0.9890        | 0.0181         | 0.0249        | 0.8724        |  No        |
-| Random Forest       | 0.9999         | 0.9889        | 0.9993         | 0.0054        | 0.8335        |  No        |
-| XGBoost             | 0.9898         | 0.9888        | 0.1711         | 0.0775        | 0.8865        |  No        |
+| Model               | ROC AUC (Train) | ROC AUC (Test) |
+| ------------------- | --------------- | -------------- |
+| Logistic Regression | 0.8727          | 0.8737         |
+| Random Forest       | 0.8737          | 0.8682         |
+| XGBoost             | 0.8965          | 0.8918         |
 
 ## Insights
 * All models generalize well (no overfitting).
